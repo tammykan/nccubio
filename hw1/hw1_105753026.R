@@ -9,7 +9,7 @@ str(pam1)
 library('expm')
 pam1 <- as.matrix(pam1)/10000
 pam250 <- as.matrix(pam1) %^% 250
-pam250 <- as.matrix(pam250) * 100
+pam250 <- as.matrix(pam250)*100
 
 
 # output PAM250 as a file
