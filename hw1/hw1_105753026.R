@@ -12,7 +12,7 @@ pam1 <- as.matrix(pam1)/10000
 
 pam250 <- as.matrix(pam1)
 
-for(x in 1:250) {
+for(x in 1:249) {
   pam250 <- pam250 %*% pam1
 }
 
